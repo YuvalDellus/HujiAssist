@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout_more_info"
+    android:layout_width="match_parent"
+    android:layoutDirection="ltr"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".Activities.MainActivity"
+    tools:openDrawer="start">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/backgroundimage"
+        tools:context=".Activities.MainActivity">
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/loginfragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/screen_center"
+        tools:background="#000099" >
+
+    </androidx.fragment.app.FragmentContainerView>
+      
+        <View
+            android:id="@+id/screen_center"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="1dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.05"
+            tools:layout_editor_absoluteX="16dp" />
+
+        <androidx.fragment.app.FragmentContainerView
+            android:id="@+id/loginfragment1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/screen_center"
+            tools:background="#000099" />
+
+        <ImageView
+            android:id="@+id/buttonMoreInfoMapActivity"
+            android:layout_width="51dp"
+            android:layout_height="50dp"
+            android:layoutDirection="ltr"
+            android:layout_marginStart="14dp"
+            android:layout_marginTop="5dp"
+            android:background="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:focusable="true"
+            app:srcCompat="@drawable/ic_info"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/change_language_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/change_language"
+            android:textColor="@color/white"
+            app:layout_constraintBottom_toBottomOf="@+id/loginfragment"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.947"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/topFragment"
+            app:layout_constraintVertical_bias="0.007" />
+
+        <androidx.fragment.app.FragmentContainerView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:id="@+id/topFragment"
+            app:layout_constraintBottom_toTopOf="@id/screen_center"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:background="#000000"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/nav_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:layoutDirection="ltr"
+        app:headerLayout="@layout/more_info_drawer_header"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:menu="@menu/info_menu_bar" />
+
+</androidx.drawerlayout.widget.DrawerLayout>

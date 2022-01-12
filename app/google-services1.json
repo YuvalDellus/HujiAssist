@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "966408855415",
+    "project_id": "hujiassistent2021",
+    "storage_bucket": "hujiassistent2021.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:966408855415:android:177acf71769e6900818b72",
+        "android_client_info": {
+          "package_name": "huji.postpc2021.hujiassistant"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "966408855415-5cttdkuhkvdqt80jhju5obm1kknbb8m6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB0IJ26Y3PAYA-2-5eI-UhJzIe062ZJ5OY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "966408855415-5cttdkuhkvdqt80jhju5obm1kknbb8m6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

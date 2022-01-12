@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/backgroundimage"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardviewtop"
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginLeft="16dp"
+        app:cardBackgroundColor="@android:color/background_light"
+        android:layout_marginRight="16dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="686dp" >
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:layout_marginTop="50dp"
+            style="?android:attr/progressBarStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/layouttext"
+            style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox.ExposedDropdownMenu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <AutoCompleteTextView
+                android:id="@+id/autoCompleteTextViewFaculty"
+                android:background="@drawable/backgroundimage"
+                android:textStyle="bold"
+                style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox.Dense"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginTop="14dp"
+                android:inputType="none"
+                android:completionHint="@string/infofragment_facultyhint"
+                android:layout_height="match_parent"
+                android:hint="@string/infofragment_facultyhint"
+                android:layout_weight="1"
+                android:text="" />
+
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/layouttext1"
+            style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox.ExposedDropdownMenu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <AutoCompleteTextView
+                android:id="@+id/autoCompleteTextViewChug"
+                android:background="@drawable/backgroundimage"
+                android:layout_width="match_parent"
+                android:textStyle="bold"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginTop="98dp"
+                android:inputType="none"
+                android:completionHint="@string/infofragment_chughint"
+                android:layout_height="match_parent"
+                android:hint="@string/infofragment_chughint"
+                android:layout_weight="1"
+                android:text="" />
+
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/layouttext2"
+            style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox.ExposedDropdownMenu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <AutoCompleteTextView
+                android:id="@+id/autoCompleteTextViewMaslul"
+                android:background="@drawable/backgroundimage"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="12dp"
+                android:textStyle="bold"
+                android:layout_marginRight="12dp"
+                android:layout_marginTop="185dp"
+                android:inputType="none"
+                android:layout_height="match_parent"
+                android:hint="@string/infofragment_maslulhint"
+                android:completionHint="@string/infofragment_maslulhint"
+                android:layout_weight="1"
+                android:text="" />
+
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/layouttext3"
+            style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox.ExposedDropdownMenu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <AutoCompleteTextView
+                android:id="@+id/autoCompleteTextViewDegree"
+                android:background="@drawable/backgroundimage"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="12dp"
+                android:textStyle="bold"
+                android:layout_marginRight="12dp"
+                android:layout_marginTop="272dp"
+                android:inputType="none"
+                android:layout_height="match_parent"
+                android:hint="@string/infofragment_degreehint"
+                android:completionHint="@string/infofragment_degreehint"
+                android:layout_weight="1"
+                android:text="" />
+
+
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/layouttext4"
+            style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox.ExposedDropdownMenu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <AutoCompleteTextView
+                android:id="@+id/autoCompleteTextViewYear"
+                android:background="@drawable/backgroundimage"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:textStyle="bold"
+                android:layout_marginTop="360dp"
+                android:inputType="none"
+                android:layout_height="match_parent"
+                android:hint="@string/infofragment_degreeYearhint"
+                android:completionHint="@string/infofragment_degreeYearhint"
+                android:layout_weight="1"
+                android:text="" />
+        </com.google.android.material.textfield.TextInputLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardViewBottom"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginLeft="16dp"
+        app:cardBackgroundColor="@android:color/background_light"
+        android:layout_marginRight="16dp"
+        app:layout_constraintTop_toBottomOf="@id/cardviewtop"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="686dp" >
+
+        <LinearLayout
+            android:id="@+id/beginYearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            app:layout_constraintTop_toBottomOf="@id/cardviewtop"
+            android:background="@color/white"
+            android:orientation="horizontal">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/layouttext5"
+            style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox.ExposedDropdownMenu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <AutoCompleteTextView
+                android:id="@+id/autoCompleteSemesterBeginDegree"
+                android:background="@drawable/backgroundimage"
+                android:layout_width="160dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="12dp"
+                android:textStyle="bold"
+                android:inputType="none"
+                android:layout_height="60dp"
+                android:hint="@string/infofragment_degreeSemesterhint"
+                android:completionHint="@string/infofragment_degreeSemesterhint"
+                android:layout_weight="1"
+                android:text="" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/layouttext6"
+                style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox.ExposedDropdownMenu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <AutoCompleteTextView
+                    android:id="@+id/autoCompleteYearBeginDegree"
+                    android:layout_width="160dp"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="18dp"
+                    android:layout_marginRight="12dp"
+                    android:layout_weight="1"
+                    android:background="@color/white"
+                    android:hint="@string/infofragment_startYearhint"
+                    android:completionHint="@string/infofragment_startYearhint"
+                    android:inputType="none"
+                    android:text=""
+                    android:textStyle="bold" />
+
+
+            </com.google.android.material.textfield.TextInputLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/continuePersBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="5dp"
+        android:text="@string/continue_btn"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/cardViewBottom"
+
+        />
+
+    <TextView
+        android:id="@+id/infoText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="24dp"
+        android:background="@color/white"
+        app:layout_constraintRight_toRightOf="parent"
+        android:text="@string/register2out3"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/cardviewtop"
+        tools:layout_editor_absoluteX="180dp"
+        tools:layout_editor_absoluteY="1dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

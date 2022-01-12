@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <manifest package="huji.postpc2021.hujiassistant" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-feature android:name="android.hardware.camera" android:required="false"/>
+    <uses-feature android:name="android.hardware.camera.autofocus" android:required="false"/>
+    <uses-feature android:name="android.hardware.camera.front" android:required="false"/>
+    <uses-feature android:name="android.hardware.camera.front.autofocus" android:required="false"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <application android:name=".HujiAssistentApplication" android:theme="@style/Theme.HUJI_Assistant" android:supportsRtl="true" android:roundIcon="@mipmap/ic_launcher_round" android:label="@string/app_name" android:icon="@mipmap/ic_launcher" android:allowBackup="true">
+
+
+    <activity android:name=".Activities.ShowImagesActivity"/>
+    <activity android:name=".Activities.ScanQrActivity"/>
+    <activity android:name=".Activities.ImageActivity"/>
+    <activity android:name=".Activities.ShowPDFActivity"/>
+    <activity android:name=".Activities.MainActivity" android:screenOrientation="portrait"/>
+    <activity android:name=".Activities.PDFActivity"/>
+    <activity android:name=".Activities.CaptureImageActivity"/>
+    <activity android:name=".Activities.MainScreenActivity" android:screenOrientation="portrait"/>
+    <activity android:name=".Activities.ShowAttendanceActivity"/>
+    <activity android:name=".Activities.LoadDataMainActivity">
+
+    <intent-filter>
+
+    <action android:name="android.intent.action.MAIN"/>
+    <category android:name="android.intent.category.LAUNCHER"/>
+
+</intent-filter>
+
+</activity>
+
+    <provider android:name="androidx.core.content.FileProvider" android:grantUriPermissions="true" android:exported="false" android:authorities="huji.postpc2021.hujiassistant.fileprovider">
+
+    <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/file_paths"/>
+
+</provider>
+
+</application>
+
+</manifest>
+

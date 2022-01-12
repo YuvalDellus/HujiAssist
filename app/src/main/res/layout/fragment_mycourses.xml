@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="vertical"
+    android:scrollbarSize="@dimen/action_button_width"
+    android:background="@drawable/backgroundimage">
+
+    <TextView
+        android:id="@+id/myCoursesTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/mycoursestitle"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toTopOf="@id/cardViewTop"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardViewTop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        app:cardBackgroundColor="@color/lightorange"
+        app:layout_constraintTop_toBottomOf="@id/myCoursesTextView"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/nameOfStudentTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/nameOfStudentMyCoursesScreen"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/red"
+                android:paddingLeft="5dp"
+                android:paddingTop="2dp"
+                android:paddingRight="5dp"
+                android:paddingBottom="2dp"
+                android:scaleType="fitXY"
+                android:src="@android:drawable/divider_horizontal_dark" />
+
+            <TextView
+                android:id="@+id/nameOfFaculty"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/nameOfFacultyMyCoursesScreen"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/red"
+                android:paddingLeft="5dp"
+                android:paddingTop="2dp"
+                android:paddingRight="5dp"
+                android:paddingBottom="2dp"
+                android:scaleType="fitXY"
+                android:src="@android:drawable/divider_horizontal_dark" />
+
+            <TextView
+                android:id="@+id/nameOfChug"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/nameOfChugMyCoursesScreen"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/red"
+                android:paddingLeft="5dp"
+                android:paddingTop="2dp"
+                android:paddingRight="5dp"
+                android:paddingBottom="2dp"
+                android:scaleType="fitXY"
+                android:src="@android:drawable/divider_horizontal_dark" />
+
+            <TextView
+                android:id="@+id/nameOfMaslul"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/nameOfMaslulMyCoursesScreen"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/red"
+                android:paddingLeft="5dp"
+                android:paddingTop="2dp"
+                android:paddingRight="5dp"
+                android:paddingBottom="2dp"
+                android:scaleType="fitXY"
+                android:src="@android:drawable/divider_horizontal_dark" />
+
+            <TextView
+                android:id="@+id/nameOfDegree"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/degreeTypeMyCoursesScreen"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/red"
+                android:paddingLeft="5dp"
+                android:paddingTop="2dp"
+                android:paddingRight="5dp"
+                android:paddingBottom="2dp"
+                android:scaleType="fitXY"
+                android:src="@android:drawable/divider_horizontal_dark" />
+
+            <TextView
+                android:id="@+id/yearOfDegree"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/yearOfDegreeMyCoursesScreen"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/black"
+                android:paddingTop="2dp"
+                android:src="@android:drawable/divider_horizontal_dark"
+                app:layout_constraintTop_toBottomOf="@id/cardViewTop" />
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <LinearLayout
+        android:id="@+id/listOfCoursesLayout"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/lightorange2"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@id/linearlayout2"
+        app:layout_constraintTop_toBottomOf="@id/cardViewTop">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/layouttext1"
+            style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox.ExposedDropdownMenu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <AutoCompleteTextView
+                android:id="@+id/autocompletechoosetype1"
+                android:layout_width="170dp"
+                android:layout_height="50dp"
+                android:layout_gravity="right"
+                android:layout_marginLeft="170dp"
+                android:gravity="right"
+                android:hint="@string/searchByType"
+                android:inputType="none"
+                android:textDirection="rtl"
+                android:textSize="12sp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearlayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/lightorange2"
+        android:maxHeight="300dp"
+        android:orientation="vertical"
+        app:layout_constraintTop_toBottomOf="@id/listOfCoursesLayout">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/black"
+            android:paddingTop="2dp"
+            android:paddingBottom="2dp"
+            android:src="@android:drawable/divider_horizontal_dark"
+            app:layout_constraintTop_toBottomOf="@id/cardViewTop" />
+
+        <TextView
+            android:id="@+id/coursesSaveBtn"
+            android:layout_width="90dp"
+            android:paddingRight="12dp"
+            android:layout_gravity="right"
+            android:layout_height="25dp"
+            android:visibility="gone"
+            android:drawableRight="@drawable/ic_baseline_save_16"
+            android:text="@string/saveBtn"
+            android:textSize="12dp"
+            android:textStyle="bold" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycleViewMyCourses"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="0dp"
+            android:background="@color/lightorange2"
+            android:paddingLeft="6dp"
+            android:paddingRight="6dp"
+            android:scrollbarSize="@android:dimen/app_icon_size"
+            android:scrollbars="vertical"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            app:layout_constraintTop_toBottomOf="@+id/listOfCoursesLayout"
+            tools:layout_editor_absoluteX="142dp" />
+
+        <androidx.appcompat.widget.SearchView
+            android:id="@+id/search1"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_gravity="right"
+            android:layout_marginLeft="10dp"
+            android:background="@color/lightorange"
+            android:gravity="right"
+            android:paddingLeft="2dp"
+            android:paddingRight="2dp"
+            android:textDirection="rtl"
+            app:queryHint="@string/searchByCourse"
+            app:searchHintIcon="@drawable/ic_baseline_search_24" />
+
+    </LinearLayout>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardViewTotalPoints"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="@color/lightorange2"
+        app:cardBackgroundColor="@color/lightorange2"
+        app:layout_constraintTop_toBottomOf="@id/linearlayout2">
+
+        <LinearLayout
+            android:id="@+id/linearlayout3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:maxHeight="200dp"
+            android:orientation="vertical"
+            app:layout_constraintTop_toBottomOf="@id/search1">
+
+            <TextView
+                android:id="@+id/textViewTotalHovaPoints"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginTop="0dp"
+                android:paddingRight="20dp"
+                android:text="@string/mandatory"
+                android:textSize="12sp">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/textViewTotalHovaChoosePoints"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginTop="5dp"
+                android:paddingRight="20dp"
+                android:text="@string/mandatorychoose"
+                android:textSize="12sp">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/textViewTotalChoosePoints"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginTop="15dp"
+                android:paddingRight="20dp"
+                android:text="@string/choose"
+                android:textSize="12sp">
+
+            </TextView>
+
+
+            <TextView
+                android:id="@+id/textViewTotalSuppPoints"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="100dp"
+                android:layout_marginTop="0dp"
+                android:text="@string/suppcourses"
+                android:visibility="gone">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/textViewTotalCornerStonePoints"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="0dp"
+                android:text="@string/cornerstonescourses"
+                android:visibility="gone">
+            </TextView>
+
+            <TextView
+                android:id="@+id/textViewTotalPoints"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="2dp"
+                android:paddingRight="2dp"
+                android:text="@string/totalpoints"
+                android:textSize="14sp">
+            </TextView>
+
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="18dp"
+            android:background="@color/black"
+            android:src="@android:drawable/divider_horizontal_dark"
+            app:layout_constraintTop_toBottomOf="@id/textViewTotalHovaChoosePoints" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:id="@+id/textViewTotalPointsDegree"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="270dp"
+            android:layout_gravity="right"
+            android:layout_marginTop="90dp"
+            android:paddingRight="8dp"
+            android:text="@string/totalpointsfordegree"
+            android:textSize="12sp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/textViewDegreeAverage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_gravity="left"
+            android:layout_marginTop="90dp"
+            android:text="@string/average"
+            android:textSize="14sp">
+
+        </TextView>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="48dp"
+            android:background="@color/black"
+            android:src="@android:drawable/divider_horizontal_dark"
+            app:layout_constraintTop_toBottomOf="@id/textViewTotalHovaChoosePoints" />
+
+    </androidx.cardview.widget.CardView>
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/addCourseBtn"
+        style="@style/ShapeAppearance.MaterialComponents.MediumComponent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:background="@color/lightorange"
+        android:contentDescription=""
+        android:foregroundGravity="center"
+        android:paddingLeft="2dp"
+        android:textAlignment="center"
+        app:borderWidth="16dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/cardViewTop"
+        app:srcCompat="@drawable/ic_baseline_add_8" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>

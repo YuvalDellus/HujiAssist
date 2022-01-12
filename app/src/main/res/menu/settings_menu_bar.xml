@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <group android:checkableBehavior="single"
+        android:id="@+id/infoSection">
+
+        <item
+            android:id="@+id/aguda"
+            android:icon="@drawable/ic_menu_compass"
+            android:title="@string/aguda"
+            android:checkable="false"/>
+
+        <item
+            android:id="@+id/kolzchut"
+            android:icon="@drawable/ic_menu_compass"
+            android:title="@string/kolzchut"
+            android:checkable="false"/>
+
+    </group>
+</menu>

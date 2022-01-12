@@ -1,0 +1,105 @@
+plugins {
+    id 'com.android.application'
+    id 'com.google.gms.google-services'
+}
+
+
+android {
+    dataBinding{
+        enabled=true
+    }
+    viewBinding{
+        enabled=true
+    }
+    compileSdkVersion 30
+    buildToolsVersion "30.0.3"
+
+    defaultConfig {
+        applicationId "huji.postpc2021.hujiassistant"
+        minSdkVersion 19
+        versionCode 1
+        targetSdkVersion 30
+        versionName "1.0"
+        vectorDrawables.useSupportLibrary = true
+        multiDexEnabled true
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    testOptions {
+        unitTests {
+            includeAndroidResources = true
+        }
+    }
+}
+
+dependencies {
+
+    implementation 'androidx.appcompat:appcompat:1.3.0'
+    implementation 'com.google.android.material:material:1.3.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
+    implementation 'com.google.firebase:firebase-storage:20.0.0'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+
+    implementation 'com.google.firebase:firebase-firestore:23.0.3'
+    implementation 'com.google.firebase:firebase-database:20.0.2'
+    testImplementation 'junit:junit:4.+'
+    implementation 'com.budiyev.android:code-scanner:2.1.0'
+    implementation 'org.osmdroid:osmdroid-android:6.1.11'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.2'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
+    implementation "com.google.firebase:firebase-core:11.6.2"
+    implementation 'com.firebaseui:firebase-ui-auth:3.1.2'
+    implementation 'androidx.lifecycle:lifecycle-extensions:2.1.0'
+    implementation 'com.google.firebase:firebase-auth:21.0.1'
+    implementation 'androidx.multidex:multidex:2.0.0'
+    testImplementation 'org.robolectric:robolectric:4.5.1'
+    implementation 'com.github.bumptech.glide:glide:4.12.0'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.12.0'
+    implementation 'com.airbnb.android:lottie:3.7.0'
+    implementation 'org.jetbrains:annotations:16.0.2'
+    compile 'com.github.vihtarb:tooltip:0.1.9'
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    // ...
+    implementation platform('com.google.firebase:firebase-bom:28.4.2')
+    implementation 'com.google.firebase:firebase-analytics'
+    // recycler view
+    implementation 'com.android.support:recyclerview-v7:26.1.0'
+
+    // glide image library
+    implementation 'com.github.bumptech.glide:glide:4.3.1'
+
+    // volley http library
+    implementation 'com.android.volley:volley:1.0.0'
+    implementation 'com.google.code.gson:gson:2.6.2'
+
+    // Java language implementation
+//    implementation "androidx.navigation:navigation-fragment:$nav_version"
+//    implementation "androidx.navigation:navigation-ui:$nav_version"
+
+
+    // Feature module Support
+//    implementation "androidx.navigation:navigation-dynamic-features-fragment:$nav_version"
+
+    implementation 'androidx.lifecycle:lifecycle-extensions:2.0.0'
+    annotationProcessor 'androidx.lifecycle:lifecycle-compiler:2.0.0'
+    // Testing Navigation
+//    androidTestImplementation "androidx.navigation:navigation-testing:$nav_version"
+
+    // Jetpack Compose Integration
+    // implementation "androidx.navigation:navigation-compose:2.4.0-alpha08"
+
+
+}
+apply plugin: 'com.google.gms.google-services'
+apply plugin: 'com.android.application'

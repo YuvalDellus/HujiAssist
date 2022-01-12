@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">HUJI Assistant</string>
+    <string name="scan_something">Start scanning!</string>
+    <string name="camera">Take a picture</string>
+    <string name="gallery">Upload from gallery</string>
+    <string name="image_title">Add a description to the image</string>
+    <string name="aguda">Student Association</string>
+    <string name="kolzchut">Kol-Zchut site</string>
+    <string name="link_to_drive">Drivers of majors</string>
+    <string name="rishumnet">Rishum-net</string>
+    <string name="recommendations">Course recommendations</string>
+    <string name="drawer_header"><b><u><i>Useful Links</i></u></b></string>
+    <string name="upload_button">Upload</string>
+    <string name="show_all_pictures_button">View photos</string>
+    <string name="show_all_pdf_button">View documents</string>
+    <string name="pdf_name">שם</string>
+    <string name="loading">Loading…</string>
+    <string name="logo_description">Logo</string>
+    <string name="reset_image">Should the changes made be discarded?</string>
+    <string name="delete_course_alert">Are you sure you want to delete the course? The operation can not be undone</string>
+    <string name="positive_answer">Yes</string>
+    <string name="negative_answer">No</string>
+    <string name="upload_Successfully_message">Uploaded successfully</string>
+    <string name="upload_failed_message">There was a problem uploading</string>
+    <string name="close_app">Close the app?</string>
+    <string name="please_wait_message">Please wait…</string>
+    <string name="user_exist_message">Exists in the user system with the above email</string>
+    <string name="scan_Successfully_message">The scan was performed successfully</string>
+    <string name="scan_failed_message">There was a problem scanning</string>
+    <string name="reset_password">Reset password?</string>
+    <string name="enter_email_for_reset_password">Enter your email to get a link to reset your password</string>
+    <string name="check_your_mail_for_reset_link_message">Check your email for a password reset link</string>
+    <string name="try_again_later_message">There was a problem, please try again later</string>
+    <string name="incorrect_username">Incorrect username and password. Try entering again or registering as a new user</string>
+    <string name="logout">Are you sure you want to log out?</string>
+    <string name="insert_grade">Enter a course grade</string>
+    <string name="approve_btn">OK</string>
+    <string name="register_Successfully_message">You have successfully registered!</string>
+    <string name="register_failed_message">There was a problem registering, please try again later</string>
+    <string name="change_password">Type a new password</string>
+    <string name="change_password2">Type the new password again</string>
+    <string name="old_password">Type an old password</string>
+    <string name="password_updated_Successfully_message">Password updated successfully</string>
+    <string name="password_failed_to_update_message">There was a problem updating, please try again later</string>
+    <string name="incorrect_old_password">Old password is incorrect</string>
+    <string name="hello_message">Hello</string>
+    <string name="old_password_is_empty">Please enter an old password</string>
+    <string name="new_password_is_empty">Please enter a new password</string>
+    <string name="repeat_password_is_empty">Please repeat the new password</string>
+    <string name="new_pass_is_not_equal_to_repeat_pass">Please repeat the new password accurately</string>
+    <string name="upload_pictures_button">Uploading summaries</string>
+    <string name="enter_course_number">Enter a course number</string>
+    <string name="show_attendance">Attendance list</string>
+    <string name="change_language">הגדרות שפה</string>
+    <string name="next">Next</string>
+    <string name="registration_process_description">System Registration Screen - Step 1 of 3</string>
+    <string name="new_registration_process_description">New user registration screen Screen 1 of 3</string>
+    <string name="course_number_is_empty">Please enter a course number to which the file is relevant</string>
+    <string name="image_description_is_empty">Please enter a description for the file</string>
+    <string name="course_number_is_not_valid">Incorrect course number</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="login_screen">Login screen</string>
+    <string name="logout_textview">Logout</string>
+
+
+    <string name="nameOfStudentMyCoursesScreen">Name of student: </string>
+    <string name="nameOfFacultyMyCoursesScreen">Name of faculty: </string>
+    <string name="nameOfChugMyCoursesScreen">Name of department: </string>
+    <string name="nameOfMaslulMyCoursesScreen">Name of sub-department: </string>
+    <string name="degreeTypeMyCoursesScreen">First / advanced degree: </string>
+    <string name="yearOfDegreeMyCoursesScreen">Year of degree: </string>
+
+
+
+    <string name="action_settings">Settings</string>
+    <string name="toolbar_title">Contacts</string>
+    <string name="action_search">Search</string>
+    <string name="search_hint">Search for a course…</string>
+
+    <string name="wait_screen_page_title"><b>HUJI-Asisstant</b></string>
+
+    <string name="settings_drawer_header">Settings</string>
+    <string name="course_number_txt">Course number:</string>
+    <string name="added_to_the_list_of_courses">Was added to the list of courses</string>
+    <string name="exists_in_the_list_of_courses">Already exists in the list of courses</string>
+    <string name="removed_from_the_list_of_courses">Was removed from the list of courses</string>
+    <string name="showFilesBtn">Show files</string>
+    <string name="email_not_valid_message">Invalid email address</string>
+    <string name="email_field">mail address</string>
+    <string name="user_first_name_field">First name</string>
+    <string name="user_last_name_field">Last name</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="showSummariesBtn">Show summaries</string>
+    <string name="showImagesBtn">Show photos</string>
+    <string name="showfilestitle">Show files</string>
+    <string name="no_courses">No courses found</string>
+    <string name="hello">Hello</string>
+    <string name="files_screen_desc">View your photos and summaries</string>
+    <string name="uploadCoursesTitle">Upload files screeb</string>
+    <string name="register1out3">Registration screen - 1 out of 3</string>
+    <string name="register2out3">Registration screen - 2 out of 3</string>
+    <string name="register3out3">Registration screen - 3 out of 3</string>
+    <string name="private_name">Private name </string>
+    <string name="second_name">Family name </string>
+    <string name="continue_btn">Continue</string>
+    <string name="bottommenusettings">Settings</string>
+    <string name="bottommenuqrscan">QR Scan</string>
+    <string name="mycoursestitle">My courses</string>
+    <string name="search_course">Search for a course by number…</string>
+    <string name="choose_course">Select a course for which the file is intended</string>
+    <string name="edit_degree_data">Editing degree data</string>
+    <string name="choose_a_degree">Choose a degree</string>
+    <string name="choose_a_year_for_the_degree">Choose a year for the degree</string>
+    <string name="choose_a_course">Choose a course</string>
+    <string name="other">Other</string>
+    <string name="courses_msg">Please select the courses you have already done</string>
+    <string name="Notice_you_got_some_Course_kdam_missing">Notice: you got some Course kdam missing</string>
+    <string name="plan_courses_msg">Please select your planned courses</string>
+    <string name="version">Version 1.0</string>
+    <string name="username">Username: </string>
+    <string name="show_only_selected">Show only selected items</string>
+    <string name="yearOfDegreePlannedCoursesScreen">Year of degree</string>
+    <string name="semester">Semester</string>
+    <string name="planning_courses_title">Planned courses</string>
+    <string name="user_exist">Existing user</string>
+    <string name="new_user">New user</string>
+    <string name="schedule_plan">Schedule</string>
+    <string name="editing_personal_details">Edit personal info</string>
+    <string name="curriculum_planning">Curriculum planning</string>
+    <string name="my_courses">My courses</string>
+    <string name="please_enter_password_msg">Please enter a password of at least 8 characters</string>
+    <string name="please_enter_email_msg">Please enter an email address</string>
+    <string name="please_enter_personal_name_msg">Please enter a First name</string>
+    <string name="please_enter_family_name_msg">Please enter a last name</string>
+    <string name="please_enter_faculty_msg">Please enter a faculty</string>
+    <string name="please_enter_chug_msg">Please enter a major</string>
+    <string name="please_enter_maslul_msg">Please enter a route</string>
+    <string name="email_address_field">E-mail address</string>
+    <string name="password_address_field">Password</string>
+    <string-array name="degreeTypesList">
+        <item value="01">בוגר</item>
+        <item value="02">מוסמך</item>
+    </string-array>
+    <string name="schedule">Schedule</string>
+
+    <string-array name="beginyeararray">
+        <item value="1">2022</item>
+        <item value="2">2021</item>
+        <item value="3">2020</item>
+        <item value="4">2019</item>
+        <item value="5">2018</item>
+        <item value="6">2017</item>
+    </string-array>
+
+    <string-array name="beginsemesterarray">
+        <item value="1">סמסטר א</item>
+        <item value="2">סמסטר ב</item>
+    </string-array>
+
+    <string-array name="yearArray">
+        <item value="01">שנה א</item>
+        <item value="02">שנה ב</item>
+        <item value="03">שנה ג</item>
+        <item value="04">שנה ד</item>
+        <item value="05">שנה ה</item>
+    </string-array>
+
+    <string-array name="courseType">
+        <item value="01">לימודי חובה</item>
+        <item value="02">לימודי חובת בחירה</item>
+        <item value="03">קורסי בחירה</item>
+        <item value="04">משלימים</item>
+        <item value="05">אבני פינה</item>
+        <item value="05">הכל</item>
+    </string-array>
+    <string name="searchByType">Search by type</string>
+    <string name="searchByCourse">Search for a course…</string>
+    <string name="endRegistration">End registration</string>
+
+    <string-array name="coursePoints">
+        <item value="01">2 נז</item>
+        <item value="02">3 נז</item>
+        <item value="03">4 נז</item>
+        <item value="04">5 נז</item>
+        <item value="05">6 נז</item>
+        <item value="06">7 נז</item>
+        <item value="07">הכל</item>
+    </string-array>
+    <string name="courseDoesntExistsInFireBase">There is no course with this number</string>
+    <string name="courseExistsInMyCoursesList">The course already exists in the list of courses</string>
+    <string name="addcoursebtn">Add a new course</string>
+    <string name="addcoursehint">Enter the number of the course</string>
+    <string name="addcoursemsg">Add</string>
+    <string name="mandatory">Mandatory:</string>
+    <string name="mandatorychoose">Mandatory choose:</string>
+    <string name="choose">Choose:</string>
+    <string name="suppcourses">Supplemental</string>
+    <string name="cornerstonescourses">Corner stone:</string>
+    <string name="outof">out of:</string>
+    <string name="numberofcoursetoast">Course number:</string>
+    <string name="addingcoursemsgsuccess">was successfully added</string>
+    <string name="totalpoints">Total points:</string>
+    <string name="totalpointsfordegree">Total points for degree:</string>
+    <string name="average">Total Average:</string>
+    <string name="grade_tooltip">Press on the grade to edit it</string>
+    <string name="gradeAdded">The grade was successfully updated</string>
+    <string name="invalidGrade">Please enter a grade in the range 0 – 100</string>
+    <string name="gradeDescription">grade</string>
+    <string name="noAftercoursesmsg">This course is not pre course for other courses</string>
+
+    <string name="infofragment_facultyhint">Choose a faculty/school</string>
+    <string name="infofragment_chughint">Choose sub faculty</string>
+    <string name="infofragment_maslulhint">Choose degree</string>
+    <string name="infofragment_degreehint">Choose degree type</string>
+    <string name="infofragment_degreeYearhint">Choose the year of degree</string>
+    <string name="infofragment_degreeSemesterhint">Start semester</string>
+    <string name="infofragment_startYearhint">Start year of degree</string>
+
+    <string name="courseinfonumber">Number of course:</string>
+    <string name="courseinfoname">Name of course:</string>
+    <string name="courseinfotype">Type of course</string>
+    <string name="courseinfopoints">Points</string>
+    <string name="courseinfoyear">Given in year</string>
+    <string name="courseinfosemester">Given in semester</string>
+    <string name="kdamcoursestitle">Previous courses</string>
+    <string name="nokdamcoursesmsg">There are no previous courses for this course</string>
+    <string name="aftercoursestitle">Pre for the following courses</string>
+    <string name="okbtn">OK</string>
+    <string name="saveBtn">Save</string>
+    <string name="points_field">Points</string>
+    <string name="savedsuccessfully">Changes were successfully saved</string>
+
+    <string name="hellomail">Hello! your friend</string>
+    <string name="invitationmail">sent you an invitation for the app:</string>
+    <string name="linkmail">Link to the apps page in Play Store:</string>
+    <string name="mailheader">An invitation to the app:</string>
+
+    <string name="settingsinvitefriends">Invite friends</string>
+    <string name="enteramail">Please enter an email address. It is possible to enter many email addresses, separated by comma</string>
+    <string name="sendmailbtn">Send</string>
+    <string name="popup_addgrade">Please add grade </string>
+
+    <string-array name="faculty">
+        <item value="01">הפקולטה למדעי הרוח</item>
+        <item number="02">הפקולטה למדעי הטבע</item>
+        <item number="03">הפקולטה למשפטים</item>
+        <item number="04">הפקולטה לרפואה</item>
+        <item number="05">הפקולטה לרפואת שיניים</item>
+        <item number="06">ביה"ס למנהל העסקים</item>
+        <item number="07">הפקולטה למדעי החברה</item>
+        <item number="08">הפקולטה לחקלאות</item>
+        <item number="09">ביה"ס לעבודה סוציאלית</item>
+        <item number="11">מרכז אדמונד ולילי ספרא למדעי המוח</item>
+        <item number="12">ביה"ס להנדסה ולמדעי המחשב</item>
+        <item number="16">מכינה</item>
+        <item number="30">תוכניות מיוחדות</item>
+    </string-array>
+    <string-array name="school_science_faculty">
+        <item number="12">מכינה</item>
+        <item value="0" label="כל החוגים">כל החוגים</item>
+        <item value="0525" label="אינטרנט וחברה ">אינטרנט וחברה</item>
+        <item value="0524" label="אינטרנט וחברה (למדעי הטבע) ">אינטרנט וחברה (למדעי הטבע)</item>
+        <item value="0523" label="אמירים תכנית למצטיינים – מחשבים ">אמירים תכנית למצטיינים – מחשבים</item>
+        <item value="0582" label="ביו-הנדסה  (מדעי הטבע) ">ביו-הנדסה  (מדעי הטבע)</item>
+        <item value="0583" label="הנדסת חשמל ומחשבים ">הנדסת חשמל ומחשבים</item>
+        <item value="0587" label="הנדסת חשמל ומחשבים עם התמחות באופטואלקטרוניקה ומיקרואלקטרוניקה ">הנדסת חשמל ומחשבים עם התמחות באופטואלקטרוניקה ומיקרואלקטרוניקה</item>
+        <item value="0586" label="הנדסת חשמל ומחשבים עם התמחות בהנדסת מחשבים ">הנדסת חשמל ומחשבים עם התמחות בהנדסת מחשבים</item>
+        <item value="0521" label="מדעי המחשב ">מדעי המחשב</item>
+        <item value="0532" label="מדעי המחשב וביולוגיה חישובית ">מדעי המחשב וביולוגיה חישובית</item>
+        <item value="0591" label="מדעי הסביבה  (מדעי הטבע) ">מדעי הסביבה  (מדעי הטבע)</item>
+        <item value="0595" label="מדעי כדור הארץ  (מדעי הטבע) ">מדעי כדור הארץ  (מדעי הטבע)</item>
+        <item value="0322" label="מנהל עסקים  (ביה" ס="" למנהל=""> העסקים)="" "="">מנהל עסקים  (ביה"ס למנהל העסקים)</item>
+        <item value="0530" label="מתמטיקה  (מדעי הטבע) ">מתמטיקה  (מדעי הטבע)</item>
+        <item value="0541" label="פיסיקה  (מדעי הטבע) ">פיסיקה  (מדעי הטבע)</item>
+        <item value="0520" label="תכנית תלפיות  (מדעי הטבע) ">תכנית תלפיות  (מדעי הטבע)</item>
+        <item value="0323" label="תקשורת ועיתונאות  (מדעי החברה) ">תקשורת ועיתונאות  (מדעי החברה)</item>
+        <item value="5210" label="חטיבה במדעי המחשב">חטיבה במדעי המחשב</item>
+        <item value="5311" label="חטיבה במתמטיקה">חטיבה במתמטיקה</item>
+        <item value="5422" label="חטיבה בפיסיקה">חטיבה בפיסיקה</item>
+        <item value="5230" label="חטיבה לעיצוב ופיתוח משחקי מחשב">חטיבה לעיצוב ופיתוח משחקי מחשב</item>
+        <item value="5212" label="חטיבה מורחבת במדעי המחשב">חטיבה מורחבת במדעי המחשב</item>
+    </string-array>
+
+    <string-array name="ruach_faculty">
+        <item name="0" label="כל החוגים">כל החוגים</item>
+        <item name="0255" label="אמירים - תכנית מצטיינים ">אמירים - תכנית מצטיינים</item>
+        <item value="0176" label="אנגלית ">אנגלית</item>
+        <item value="0150" label="ארכאולוגיה והמזרח הקרוב הקדום ">ארכאולוגיה והמזרח הקרוב הקדום</item>
+        <item value="0195" label="ביה&quot;ס לאמנויות ">ביה"ס לאמנויות</item>
+        <item value="0145" label="ביה&quot;ס להגות ודתות ">ביה"ס להגות ודתות</item>
+        <item value="0158" label="ביה&quot;ס להיסטוריה - תכנית מצטיינים ">ביה"ס להיסטוריה - תכנית מצטיינים</item>
+        <item value="0114" label="ביה&quot;ס למדעי הלשון ">ביה"ס למדעי הלשון</item>
+        <item value="0118" label="ביה&quot;ס לספרויות עתיקות וחדשות ">ביה"ס לספרויות עתיקות וחדשות</item>
+        <item value="0249" label="בית הספר לחינוך- תכנית מיוחדת ">בית הספר לחינוך- תכנית מיוחדת</item>
+        <item value="0181" label="בלשנות ">בלשנות</item>
+        <item value="0192" label="היחידה ללימודי שפות ">היחידה ללימודי שפות</item>
+        <item value="0151" label="היסטוריה ">היסטוריה</item>
+        <item value="0105" label="היסטוריה של עם ישראל ויהדות זמננו ">היסטוריה של עם ישראל ויהדות זמננו</item>
+        <item value="0142" label="היסטוריה, פילוסופיה וסוציולוגיה של המדעים ">היסטוריה, פילוסופיה וסוציולוגיה של המדעים</item>
+        <item value="0109" label="הלשון העברית ">הלשון העברית</item>
+        <item value="0200" label="חינוך ">חינוך</item>
+        <item value="0240" label="חינוך - המגמה לייעוץ חינוכי ">חינוך - המגמה לייעוץ חינוכי</item>
+        <item value="0241" label="חינוך - חינוך מיוחד ">חינוך - חינוך מיוחד</item>
+        <item value="0242" label="חינוך - למידה והוראה ">חינוך - למידה והוראה</item>
+        <item value="0243" label="חינוך - לקויות למידה ">חינוך - לקויות למידה</item>
+        <item value="0231" label="חינוך - מחשבת החינוך ">חינוך - מחשבת החינוך</item>
+        <item value="0237" label="חינוך - מינהל, מדיניות ומנהיגות בחינוך ">חינוך - מינהל, מדיניות ומנהיגות בחינוך</item>
+        <item value="0232" label="חינוך - סוציולוגיה של החינוך ">חינוך - סוציולוגיה של החינוך</item>
+        <item value="0238" label="חינוך יהודי ">חינוך יהודי</item>
+        <item value="0117" label="חקר פולקלור ותרבות עממית ">חקר פולקלור ותרבות עממית</item>
+        <item value="0112" label="יידיש ">יידיש</item>
+        <item value="0246" label="ייעוץ חינוכי לגיל הרך ">ייעוץ חינוכי לגיל הרך</item>
+        <item value="0124" label="לימודי אסיה ">לימודי אסיה</item>
+        <item value="0122" label="לימודי האסלאם והמזרח התיכון ">לימודי האסלאם והמזרח התיכון</item>
+        <item value="0201" label="לימודי הוראה - תעודת הוראה ">לימודי הוראה - תעודת הוראה</item>
+        <item value="0101" label="לימודי מקרא ">לימודי מקרא</item>
+        <item value="0160" label="לימודים גרמניים, רוסיים ומזרח אירופיים ">לימודים גרמניים, רוסיים ומזרח אירופיים</item>
+        <item value="0230" label="לימודים משולבים במדעי החינוך ">לימודים משולבים במדעי החינוך</item>
+        <item value="0155" label="לימודים ספרדיים ולטינו-אמריקניים ">לימודים ספרדיים ולטינו-אמריקניים</item>
+        <item value="0172" label="לימודים קלאסיים ">לימודים קלאסיים</item>
+        <item value="0179" label="לימודים רומאניים ">לימודים רומאניים</item>
+        <item value="0156" label="לימודים רוסיים וסלאוויים ">לימודים רוסיים וסלאוויים</item>
+        <item value="0141" label="מדע הדתות ">מדע הדתות</item>
+        <item value="0311" label="מדע המדינה  (מדעי החברה) ">מדע המדינה  (מדעי החברה)</item>
+        <item value="0115" label="מדעי היהדות ">מדעי היהדות</item>
+        <item value="0143" label="מדעי הקוגניציה והמוח ">מדעי הקוגניציה והמוח</item>
+        <item value="0298" label="מדעי הרוח - תכנית אישית למוסמך ">מדעי הרוח - תכנית אישית למוסמך</item>
+        <item value="0199" label="מוסיקולוגיה ">מוסיקולוגיה</item>
+        <item value="0113" label="מחשבת ישראל ">מחשבת ישראל</item>
+        <item value="0301" label="סוציולוגיה ואנתרופולוגיה  (מדעי החברה) ">סוציולוגיה ואנתרופולוגיה  (מדעי החברה)</item>
+        <item value="0180" label="ספרות כללית והשוואתית ">ספרות כללית והשוואתית</item>
+        <item value="0108" label="ספרות עברית ">ספרות עברית</item>
+        <item value="0140" label="פילוסופיה ">פילוסופיה</item>
+        <item value="0300" label="פסיכולוגיה  (מדעי החברה) ">פסיכולוגיה  (מדעי החברה)</item>
+        <item value="0244" label="פסיכולוגיה חינוכית - תכנית אישית ">פסיכולוגיה חינוכית - תכנית אישית</item>
+        <item value="0239" label="פסיכולוגיה חינוכית וקלינית של הילד ">פסיכולוגיה חינוכית וקלינית של הילד</item>
+        <item value="0699" label="רפואה - לימודים כלליים  (רפואה) ">רפואה - לימודים כלליים  (רפואה)</item>
+        <item value="0157" label="שפה וספרות גרמנית ">שפה וספרות גרמנית</item>
+        <item value="0123" label="שפה וספרות ערבית ">שפה וספרות ערבית</item>
+        <item value="0222" label="תוכנית הרב תחומית במדעי הרוח ">תוכנית הרב תחומית במדעי הרוח</item>
+        <item value="0197" label="תולדות האמנות ">תולדות האמנות</item>
+        <item value="0198" label="תולדות התאטרון ">תולדות התאטרון</item>
+        <item value="0202" label="תכנית &quot;רביבים&quot; ">תכנית "רביבים"</item>
+        <item value="0144" label="תכנית אישית למוסמך במדעי הקוגניציה ">תכנית אישית למוסמך במדעי הקוגניציה</item>
+        <item value="0102" label="תלמוד והלכה ">תלמוד והלכה</item>
+        <item value="1040" label="הדגש במדעי הרוח הדיגיטליים">הדגש במדעי הרוח הדיגיטליים</item>
+        <item value="1767" label="חטיבה באנגלית">חטיבה באנגלית</item>
+        <item value="1506" label="חטיבה בארכאולוגיה">חטיבה בארכאולוגיה</item>
+        <item value="1811" label="חטיבה בבלשנות">חטיבה בבלשנות</item>
+        <item value="1511" label="חטיבה בהיסטוריה">חטיבה בהיסטוריה</item>
+        <item value="1057" label="חטיבה בהיסטוריה של עם ישראל">חטיבה בהיסטוריה של עם ישראל</item>
+        <item value="1223" label="חטיבה בלימודי האסלאם והמזרח התיכון">חטיבה בלימודי האסלאם והמזרח התיכון</item>
+        <item value="1515" label="חטיבה בלימודי ירושלים בתוכנית הרב תחומית">חטיבה בלימודי ירושלים בתוכנית הרב תחומית</item>
+        <item value="1411" label="חטיבה בלימודי נצרות">חטיבה בלימודי נצרות</item>
+        <item value="1561" label="חטיבה בלימודים רוסיים ומזרח אירופיים">חטיבה בלימודים רוסיים ומזרח אירופיים</item>
+        <item value="1790" label="חטיבה בלשונות היהודים וספרויותיהן">חטיבה בלשונות היהודים וספרויותיהן</item>
+        <item value="2990" label="חטיבה במדעי הקוגניציה-מדעי הרוח">חטיבה במדעי הקוגניציה-מדעי הרוח</item>
+        <item value="1136" label="חטיבה במחשבת ישראל">חטיבה במחשבת ישראל</item>
+        <item value="1802" label="חטיבה בספרות השוואתית">חטיבה בספרות השוואתית</item>
+        <item value="1084" label="חטיבה בספרות עברית">חטיבה בספרות עברית</item>
+        <item value="1401" label="חטיבה בפילוספיה">חטיבה בפילוספיה</item>
+        <item value="1971" label="חטיבה בתולדות האמנות">חטיבה בתולדות האמנות</item>
+        <item value="1248" label="חטיבות בלימודי אסיה">חטיבות בלימודי אסיה</item>
+        <item value="1016" label="חטיבות במקרא">חטיבות במקרא</item>
+        <item value="1027" label="חטיבות בתלמוד והלכה">חטיבות בתלמוד והלכה</item>
+        <item value="2995" label="לימודים משלימים">לימודים משלימים</item>
+        <item value="2885" label="קורסי מיומנויות וקורסי שער">קורסי מיומנויות וקורסי שער</item>
+        <item value="1069" label="תכנית למסטרנטים מצטיינים">תכנית למסטרנטים מצטיינים</item>
+    </string-array>
+</resources>

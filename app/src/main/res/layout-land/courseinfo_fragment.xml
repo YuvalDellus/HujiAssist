@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:paddingRight="16dp"
+        android:paddingLeft="16dp"
+        app:layout_constraintTop_toBottomOf="@id/cardViewCenterCourseInfo"
+        android:id="@+id/cardViewTopCourseItem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/courseInformationLayoutTop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/lightorange"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/courseInfoNumber"
+                android:layout_width="wrap_content"
+                android:textSize="14sp"
+                android:layout_gravity="right"
+                android:textStyle="bold"
+                android:paddingRight="10dp"
+                android:layout_marginTop="6dp"
+                android:layout_height="wrap_content"
+                android:text="@string/courseinfonumber" />
+
+            <TextView
+                android:id="@+id/courseInfoName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:paddingRight="10dp"
+                android:layout_marginTop="6dp"
+                android:text="@string/courseinfoname"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        app:layout_constraintTop_toBottomOf="@id/cardViewTopCourseItem"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:paddingRight="16dp"
+        android:paddingLeft="16dp"
+        android:id="@+id/cardViewCenterCourseInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/courseInformationLayoutCenter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/lightorange2"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/courseInfoType1"
+                android:layout_width="wrap_content"
+                android:paddingRight="2dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="6dp"
+                android:layout_gravity="right"
+                android:text="@string/courseinfotype"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/courseInfoPoints1"
+                android:layout_width="wrap_content"
+                android:paddingRight="2dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="6dp"
+                android:layout_gravity="right"
+                android:text="@string/courseinfopoints"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/courseInfoYear1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="2dp"
+                android:layout_gravity="right"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="6dp"
+                android:text="@string/courseinfoyear"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/courseInfoSemester1"
+                android:layout_width="wrap_content"
+                android:layout_gravity="right"
+                android:paddingRight="2dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="6dp"
+                android:text="@string/courseinfosemester"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:maxHeight="120dp"
+        android:paddingRight="16dp"
+        android:paddingLeft="16dp"
+        app:layout_constraintTop_toBottomOf="@id/cardViewCenterCourseInfo"
+        android:id="@+id/kdamtitlecardview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:textStyle="italic"
+            android:background="@color/lightorange"
+            style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox.ExposedDropdownMenu"
+            android:layout_height="wrap_content"
+            android:text="@string/kdamcoursestitle"
+            />
+
+        <TextView
+            android:id="@+id/noKdamCoursesTextView"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:textStyle="italic"
+            android:visibility="gone"
+            android:layout_marginTop="30dp"
+            android:paddingRight="10dp"
+            android:textColor="@color/lightred"
+            android:layout_height="wrap_content"
+            android:text="@string/nokdamcoursesmsg"
+            />
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:maxHeight="120dp"
+        android:paddingRight="16dp"
+        android:paddingLeft="16dp"
+        app:layout_constraintTop_toBottomOf="@id/kdamtitlecardview"
+        android:id="@+id/cardrecycleviewkdam"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/kdamcoursessrecycleview"
+            app:layout_constraintTop_toBottomOf="@id/cardViewCenterCourseInfo"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:minHeight="1dp"
+            android:paddingRight="2dp"
+            android:paddingLeft="2dp"
+            android:maxHeight="160dp"
+            tools:layout_editor_absoluteX="287dp"
+            tools:layout_editor_absoluteY="253dp">
+        </androidx.recyclerview.widget.RecyclerView>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:maxHeight="120dp"
+        android:paddingRight="16dp"
+        android:paddingLeft="16dp"
+        app:layout_constraintTop_toBottomOf="@id/cardrecycleviewkdam"
+        android:id="@+id/aftertitlecardview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:background="@color/lightorange"
+            android:textStyle="italic"
+            style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox.ExposedDropdownMenu"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:text="@string/aftercoursestitle"
+            />
+
+        <TextView
+            android:id="@+id/noAfterCoursesTextView"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:textStyle="italic"
+            android:visibility="gone"
+            android:layout_marginTop="40dp"
+            android:paddingRight="10dp"
+            android:textColor="@color/lightred"
+            android:layout_height="wrap_content"
+            android:text="@string/noAftercoursesmsg"
+            />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:maxHeight="160dp"
+        android:paddingRight="16dp"
+        android:paddingLeft="16dp"
+        app:layout_constraintTop_toBottomOf="@+id/aftertitlecardview"
+        android:id="@+id/cardrecycleviewafter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/aftercoursessrecycleview"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:minHeight="1dp"
+            android:maxHeight="160dp"
+            android:paddingRight="2dp"
+            android:paddingLeft="2dp"
+            tools:layout_editor_absoluteX="287dp"
+            tools:layout_editor_absoluteY="253dp">
+        </androidx.recyclerview.widget.RecyclerView>
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:id="@+id/bottomcardview"
+        app:layout_constraintTop_toBottomOf="@id/cardrecycleviewafter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+        <Button
+            android:id="@+id/addToCourseListBtn"
+            android:layout_width="match_parent"
+            android:visibility="gone"
+            android:layout_height="wrap_content"
+            android:text="@string/okbtn"
+            />
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
